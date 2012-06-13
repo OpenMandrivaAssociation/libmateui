@@ -6,7 +6,7 @@
 Summary:	Main MATE libraries
 Name:		libmateui
 Version:	1.2.0
-Release:	2
+Release:	3
 License:	LGPLv2+
 Group:		System/Libraries
 Url:		http://mate-desktop.org
@@ -29,6 +29,7 @@ BuildRequires:	pkgconfig(pango)
 BuildRequires:	pkgconfig(sm)
 BuildRequires:	pkgconfig(x11)
 
+Requires: libmatecomponentui
 Requires: mate-icon-theme
 
 %description
