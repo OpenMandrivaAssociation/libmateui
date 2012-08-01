@@ -5,15 +5,15 @@
 
 Summary:	Main MATE libraries
 Name:		libmateui
-Version:	1.2.0
-Release:	3
+Version:	1.4.0
+Release:	1
 License:	LGPLv2+
 Group:		System/Libraries
 Url:		http://mate-desktop.org
-Source0:	http://pub.mate-desktop.org/releases/1.2/%{name}-%{version}.tar.xz
+Source0:	http://pub.mate-desktop.org/releases/1.4/%{name}-%{version}.tar.xz
 
-BuildRequires:	intltool
 BuildRequires:	gtk-doc
+BuildRequires:	intltool
 BuildRequires:	mate-common
 BuildRequires:	mate-conf
 BuildRequires:	pkgconfig(ice)
